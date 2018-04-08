@@ -16,8 +16,6 @@ class CashRegister
     for i = 1 to quantity
       @items << title
     end
-end
-
   end
 
   def apply_discount
