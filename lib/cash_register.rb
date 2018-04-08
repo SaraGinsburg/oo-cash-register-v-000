@@ -1,8 +1,8 @@
 class CashRegister
 
-  def initialize(total = 0, apply_discount = nil)
+  def initialize(total = 0, discount = nil)
     @total = total
-    @apply_discount = apply_discount
+    @discount = discount
   end
 
   def total
