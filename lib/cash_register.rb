@@ -15,6 +15,7 @@ class CashRegister
     @total += price * quantity
     for i = 1 to quantity
       @items << title
+      i += 1
     end
   end
 
